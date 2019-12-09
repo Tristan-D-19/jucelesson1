@@ -12,11 +12,11 @@
 #include "MainComponent.h"
 
 //==============================================================================
-class NewProjectApplication  : public JUCEApplication
+class HelloWorldApplication  : public JUCEApplication
 {
 public:
     //==============================================================================
-    NewProjectApplication() {}
+    HelloWorldApplication() {}
 
     const String getApplicationName() override       { return ProjectInfo::projectName; }
     const String getApplicationVersion() override    { return ProjectInfo::versionString; }
@@ -103,4 +103,4 @@ private:
 
 //==============================================================================
 // This macro generates the main() routine that launches the app.
-START_JUCE_APPLICATION (NewProjectApplication)
+START_JUCE_APPLICATION (HelloWorldApplication)
